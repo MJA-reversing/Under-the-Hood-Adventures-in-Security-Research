@@ -1,7 +1,7 @@
 # Site settings
 theme: jekyll-theme-slate
 
-title: Under the Hood: Adventures in Security Research
+title: "Under the Hood: Adventures in Security Research"
 
 description: > # this means to ignore newlines until "baseurl:"
   Read about my adventures as I try to navigate the low level world of the interwebs.
