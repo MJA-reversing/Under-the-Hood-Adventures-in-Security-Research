@@ -1,8 +1,8 @@
 # Site settings
+theme: jekyll-theme-chirpy
+
 description: > # this means to ignore newlines until "baseurl:"
   Read about my adventures as I try to navigate the low level world of the interwebs.
-baseurl: "/Under-the-Hood-Adventures-in-Security-Research" # the subpath of your site, e.g., /blog/
-url: "https://mja-reversing.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
