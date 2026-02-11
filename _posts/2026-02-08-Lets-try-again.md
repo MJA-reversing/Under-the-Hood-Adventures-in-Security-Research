@@ -1,7 +1,6 @@
-_posts/2026-02-08-<your-title>.md
-
 ---
-title: "…"
-date: …
+title: "Let's Try Again"
+date: 2026-02-08
 layout: post
+tags: [blog, tutorial]
 ---
