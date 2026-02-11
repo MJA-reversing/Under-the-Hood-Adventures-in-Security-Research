@@ -30,7 +30,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # Blog Post Settings
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5
 paginate_path: "/page:num/"
 
