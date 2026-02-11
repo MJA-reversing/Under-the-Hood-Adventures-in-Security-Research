@@ -1,19 +1,113 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fira+Code&display=swap');
 
 @import "{{ site.theme }}";
 
+/* ------------------ */
+/* Global Dark Theme  */
+/* ------------------ */
 body {
-  font-family: "Fira Sans", "Segoe UI", Arial, sans-serif;
+  background-color: #0d1117;   /* Deep GitHub-style dark */
+  color: #c9d1d9;              /* Soft readable gray */
+  font-family: "Inter", "Segoe UI", sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
-code, pre {
-  font-family: "Fira Code", "Courier New", monospace;
-  font-size: 0.95em;
+/* ------------------ */
+/* Headings           */
+/* ------------------ */
+h1, h2, h3, h4 {
+  color: #f0f6fc;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ------------------ */
+/* Links              */
+/* ------------------ */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
+
+/* ------------------ */
+/* Navigation Bar     */
+/* ------------------ */
+nav {
+  margin-top: 15px;
 }
 
 nav a {
+  color: #8b949e;
   font-weight: 600;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  color: #f0f6fc;
+}
+
+/* ------------------ */
+/* Code Blocks        */
+/* ------------------ */
+pre {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #30363d;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  background-color: #161b22;
+  color: #79c0ff;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* ------------------ */
+/* Blockquotes        */
+/* ------------------ */
+blockquote {
+  border-left: 4px solid #30363d;
+  padding-left: 15px;
+  color: #8b949e;
+  font-style: italic;
+}
+
+/* ------------------ */
+/* Horizontal Rule    */
+/* ------------------ */
+hr {
+  border: none;
+  border-top: 1px solid #30363d;
+  margin: 40px 0;
+}
+
+/* ------------------ */
+/* Tables             */
+/* ------------------ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #30363d;
+  padding: 8px 12px;
+}
+
+th {
+  background-color: #161b22;
+  color: #f0f6fc;
 }
