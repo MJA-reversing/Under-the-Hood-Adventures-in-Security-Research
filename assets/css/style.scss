@@ -1,15 +1,19 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&family=Fira+Code&display=swap');
+
 @import "{{ site.theme }}";
 
-/* Navigation styling */
-nav a {
-  margin: 0 12px;
-  text-decoration: none;
-  font-weight: bold;
+body {
+  font-family: "Fira Sans", "Segoe UI", Arial, sans-serif;
 }
 
-nav a:hover {
-  text-decoration: underline;
+code, pre {
+  font-family: "Fira Code", "Courier New", monospace;
+  font-size: 0.95em;
+}
+
+nav a {
+  font-weight: 600;
 }
