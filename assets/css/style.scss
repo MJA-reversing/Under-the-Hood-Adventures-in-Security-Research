@@ -3,24 +3,24 @@
 
 @import "{{ site.theme }}";
 
-/* ================================
-   IMPORT PROFESSIONAL FONTS
-================================ */
+/* Import clean readable fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap');
 
 /* ================================
-   GLOBAL SITE TYPOGRAPHY
+   GLOBAL COLORS & TYPOGRAPHY
 ================================ */
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.75;
-  color: #24292f;
-  background-color: #ffffff;
+
+  /* 🔥 MAIN FIX: Higher contrast */
+  color: #e6edf3;              /* Light text */
+  background-color: #0d1117;   /* Dark background */
 }
 
-/* Improve readability width */
+/* Constrain content width */
 .page-content {
   max-width: 900px;
   margin: auto;
@@ -29,11 +29,116 @@ body {
 
 /* Headings */
 h1, h2, h3, h4 {
+  color: #58a6ff;   /* Soft blue accent */
   font-weight: 600;
-  color: #0b3d91;
 }
 
 /* Links */
+a {
+  color: #79c0ff;
+}
+
+a:hover {
+  color: #a5d6ff;
+  text-decoration: underline;
+}
+
+/* ================================
+   BLOG POSTS
+================================ */
+
+.post-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.post-date {
+  color: #8b949e;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+.post-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #e6edf3;  /* Ensure post text is bright */
+}
+
+/* Section headings inside posts */
+.post-content h2 {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 0.3em;
+}
+
+.post-content h3 {
+  color: #79c0ff;
+}
+
+/* Lists */
+.post-content ul,
+.post-content ol {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Blockquotes */
+.post-content blockquote {
+  border-left: 4px solid #58a6ff;
+  padding-left: 1em;
+  color: #9da7b3;
+}
+
+/* ================================
+   CODE STYLING
+================================ */
+
+.post-content code {
+  font-family: 'Fira Code', monospace;
+  background: #161b22;
+  color: #79c0ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.post-content pre {
+  background: #161b22;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #30363d;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* ================================
+   IMAGES
+================================ */
+
+.post-content img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 1.5em 0;
+}
+
+/* ================================
+   TABLES
+================================ */
+
+.post-content table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  width: 100%;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #30363d;
+  padding: 8px 12px;
+}
 a {
   color: #0969da;
 }
