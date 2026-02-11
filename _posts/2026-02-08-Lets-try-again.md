@@ -1,8 +1,14 @@
 ---
 title: "Let's Try Again"
-date: 2026-02-08
+date: 2026-02-10
 layout: post
-tags: [blog, tutorial]
+tags: [blog]
 ---
 
-Read this correctly god damnit
+This is my first real post on reversing.
+
+## What I Learned
+
+- How Jekyll permalinks work
+- Why layouts matter
+- How content is injected with `{{ content }}`
