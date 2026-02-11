@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-layout: page
+layout: default
 ---
 
 Hi, I'm Matthew — a security researcher focused on understanding software at a low level.
