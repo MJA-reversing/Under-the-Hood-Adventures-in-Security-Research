@@ -1,5 +1,4 @@
 # Site settings
-title: Under the Hood Adventures: A Security Research Blog
 description: > # this means to ignore newlines until "baseurl:"
   Read about my adventures as I try to navigate the low level world of the interwebs.
 baseurl: "/Under-the-Hood-Adventures-in-Security-Research" # the subpath of your site, e.g., /blog/
