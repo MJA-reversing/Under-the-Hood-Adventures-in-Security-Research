@@ -13,3 +13,6 @@ This blog documents my journey through:
 - Systems internals
 
 All opinions expressed on this site are my own and do not reflect the views and opinions of my employers. Everything here is part of learning in public and building real research skills. Happy hunting!
+
+Github: [https://github.com/MJA-reversing](url)
+LinkedIn: [https://www.linkedin.com/in/matthew-allan-77a343135/](url)
